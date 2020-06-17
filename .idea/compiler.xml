@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hrm-eureka-server" />
-        <module name="hrm-system-service" />
         <module name="hrm-basic-util" />
-        <module name="hrm-system-interface" />
         <module name="hrm-zuul-server" />
+        <module name="hrm-system-interface" />
+        <module name="hrm-eureka-server" />
+        <module name="hrm-config-server" />
+        <module name="hrm-system-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

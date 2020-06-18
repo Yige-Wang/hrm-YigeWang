@@ -12,6 +12,8 @@
         <module>hrm-basic-parent</module>
         <module>hrm-support-parent</module>
         <module>hrm-system-parent</module>
+        <module>hrm-course-parent</module>
+        <module>hrm-config-server1311</module>
     </modules>
 
     <properties>

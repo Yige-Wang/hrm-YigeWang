@@ -9,7 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/hrm-config-server1311/pom.xml" />
         <option value="$PROJECT_DIR$/hrm-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/hrm-support-parent/hrm-zuul-server-6970/pom.xml" />
       </set>
     </option>
   </component>

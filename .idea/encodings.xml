@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-generator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-basic-parent/hrm-basic-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-zuul-server/src/main/java" charset="UTF-8" />

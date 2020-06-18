@@ -7,15 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hrm-basic-util" />
+        <module name="hrm-config-server02" />
         <module name="hrm-zuul-server" />
+        <module name="hrm-course-interface" />
         <module name="hrm-system-interface" />
+        <module name="hrm-basic-boot-starter" />
         <module name="hrm-eureka-server" />
+        <module name="hrm-zuul-server-6970" />
         <module name="hrm-config-server" />
+        <module name="hrm-course-service" />
+        <module name="hrm-basic-generator" />
         <module name="hrm-system-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hrm-basic-utiil" target="1.8" />
+      <module name="hrm-zuul-server-6970" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

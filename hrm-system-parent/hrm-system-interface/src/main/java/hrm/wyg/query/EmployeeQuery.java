@@ -1,4 +1,13 @@
 package hrm.wyg.query;
 
-public class EmployeeQuery extends BaseQuery{
+/**
+ * <p>
+ *  查询参数对象
+ * </p>
+ *
+ * @author YigeWang
+ * @since 2020-06-19
+ */
+public class EmployeeQuery extends BaseQuery {
+
 }

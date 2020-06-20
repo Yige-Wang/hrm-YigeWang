@@ -18,7 +18,7 @@ public class CodeGen {
     public static void main(String[] args) throws Exception {
 
         Properties properties = new Properties();
-        properties.load(CodeGen.class.getClassLoader().getResourceAsStream("mybatis-plus-generator-course.properties"));
+        properties.load(CodeGen.class.getClassLoader().getResourceAsStream("mybatis-plus-generator-system.properties"));
 
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();

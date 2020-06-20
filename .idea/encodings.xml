@@ -17,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-file-parent/hrm-file-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-file-parent/hrm-file-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-file-parent/hrm-file-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-file-parent/hrm-file-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-zuul-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-zuul-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-system-parent/hrm-system-interface/src/main/java" charset="UTF-8" />

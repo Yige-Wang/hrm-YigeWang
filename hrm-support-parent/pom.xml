@@ -16,6 +16,7 @@
         <module>hrm-zuul-server</module>
         <module>hrm-config-server</module>
         <module>hrm-config-server02</module>
+        <module>hrm-file-parent</module>
     </modules>
 
 

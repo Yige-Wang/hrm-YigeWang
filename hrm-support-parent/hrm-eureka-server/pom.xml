@@ -25,7 +25,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.itsource.hrm.EurekaServerApplication</mainClass>
+                    <mainClass>hrm.wyg.EurekaApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

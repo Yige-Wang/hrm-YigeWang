@@ -83,4 +83,8 @@ public class CourseTypeController {
         Page<CourseType> page = courseTypeService.page(new Page<CourseType>(query.getPageNum(), query.getPageSize()));
         return new PageList<>(page.getTotal(),page.getRecords());
     }
+    @PostMapping("/loadTree")
+    public List<CourseType> LoadCourseTypeTree(){
+        return courseTypeService.loadTypeTree();
+    }
 }

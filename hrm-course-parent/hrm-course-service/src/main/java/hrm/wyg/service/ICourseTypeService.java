@@ -3,6 +3,8 @@ package hrm.wyg.service;
 import hrm.wyg.domain.CourseType;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  * 课程目录 服务类
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ICourseTypeService extends IService<CourseType> {
 
+    List<CourseType> loadTypeTree();
 }

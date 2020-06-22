@@ -3,22 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>hrm-parent</artifactId>
+        <artifactId>hrm-support-parent</artifactId>
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hrm-support-parent</artifactId>
+    <artifactId>hrm-catch-parent</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>hrm-eureka-server</module>
-        <module>hrm-zuul-server</module>
-        <module>hrm-config-server</module>
-        <module>hrm-config-server02</module>
-        <module>hrm-file-parent</module>
-        <module>hrm-catch-parent</module>
+        <module>hrm-catch-interface</module>
+        <module>hrm-catch-server</module>
     </modules>
+
 
 
 </project>

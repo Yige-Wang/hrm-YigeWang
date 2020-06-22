@@ -11,6 +11,10 @@
     <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-course-parent/hrm-course-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-catch-parent/hrm-catch-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-catch-parent/hrm-catch-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-catch-parent/hrm-catch-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-catch-parent/hrm-catch-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hrm-support-parent/hrm-config-server02/src/main/java" charset="UTF-8" />

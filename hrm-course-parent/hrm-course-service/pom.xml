@@ -36,6 +36,11 @@
             <artifactId>hrm-catch-server</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>hrm-system-interface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -55,5 +60,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

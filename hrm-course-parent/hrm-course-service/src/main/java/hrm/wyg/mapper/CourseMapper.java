@@ -1,7 +1,11 @@
 package hrm.wyg.mapper;
 
-import hrm.wyg.domain.Course;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import hrm.wyg.domain.Course;
+import hrm.wyg.query.CourseQuery;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * <p>
@@ -13,4 +17,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface CourseMapper extends BaseMapper<Course> {
 
+
+    IPage<Course> selectCourseByQuery(Page<Course> coursePage,@Param("query") CourseQuery query);
 }

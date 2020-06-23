@@ -18,6 +18,7 @@ public class SystemdictionaryItemController {
     @Autowired
     public ISystemdictionaryItemService systemdictionaryItemService;
 
+    public final String CourseLevel ="courseLevel";
     /**
     * 保存和修改公用的
     * @param systemdictionaryItem  传递的实体
@@ -83,5 +84,9 @@ public class SystemdictionaryItemController {
     {
         Page<SystemdictionaryItem> page = systemdictionaryItemService.page(new Page<SystemdictionaryItem>(query.getPageNum(), query.getPageSize()));
         return new PageList<>(page.getTotal(),page.getRecords());
+    }
+    @GetMapping("/getCourseLevel")
+    public List<SystemdictionaryItem> getCourseLevel(){
+        return systemdictionaryItemService.getBySn(CourseLevel);
     }
 }

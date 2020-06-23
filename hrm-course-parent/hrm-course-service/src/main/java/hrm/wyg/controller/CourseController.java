@@ -1,6 +1,6 @@
 package hrm.wyg.controller;
 
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import hrm.wyg.controller.vo.CourseAddVo;
 import hrm.wyg.domain.Course;
 import hrm.wyg.query.CourseQuery;
 import hrm.wyg.service.ICourseService;
@@ -18,22 +18,19 @@ public class CourseController {
     public ICourseService courseService;
 
     /**
-    * 保存和修改公用的
-    * @param course  传递的实体
-    * @return Ajaxresult转换结果
-    */
-    @RequestMapping(value="/save",method= RequestMethod.POST)
-    public AjaxResult save(@RequestBody Course course){
+     * 删除对象信息
+     * @param courseAddVo
+     * @return
+     */
+    @RequestMapping(value = "/add",method = RequestMethod.POST)
+    public AjaxResult add(@RequestBody CourseAddVo courseAddVo){
         try {
-            if(course.getId()!=null){
-                courseService.updateById(course);
-            }else{
-                courseService.save(course);
-            }
-            return AjaxResult.me();
+            System.out.println(courseAddVo);
+            courseService.add(courseAddVo);
+            return AjaxResult.me().setSuccess(true).setMessage("保存成功");
         } catch (Exception e) {
             e.printStackTrace();
-            return AjaxResult.me().setSuccess(false).setMessage("保存对象失败！"+e.getMessage());
+            return AjaxResult.me().setMessage("保存失败").setSuccess(false);
         }
     }
 
@@ -80,7 +77,6 @@ public class CourseController {
     @RequestMapping(value = "/page",method = RequestMethod.POST)
     public PageList<Course> page(@RequestBody CourseQuery query)
     {
-        Page<Course> page = courseService.page(new Page<Course>(query.getPageNum(), query.getPageSize()));
-        return new PageList<>(page.getTotal(),page.getRecords());
+        return courseService.page(query);
     }
 }
